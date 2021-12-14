@@ -1,0 +1,14 @@
+input_a = float(self.ui.input_a.text())
+        input_bf = float(self.ui.input_bf.text())
+        input_hf = float(self.ui.input_hf.text())
+        input_b = float(self.ui.input_b.text())
+        input_h = float(self.ui.input_h.text())
+        input_rb = float(self.ui.input_rb.text())
+        input_rs = float(self.ui.input_rs.text())
+        input_m = float(self.ui.input_m.text())
+        input_user = float(self.ui.input_user.text())
+        output_s = self.ui.output_S.text()
+        output_otvet = self.ui.Output_otvet.text()
+
+        x = input_user
+        self.ui.output_f.setText(str(x))
