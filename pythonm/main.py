@@ -77,10 +77,10 @@ def func():
 
     if (y < alfar):
         otvet1 = ((input_rb * input_bf * h0 * (1 - math.sqrt(1 - 2 * y))) / input_rs)
-        form.output_as.setText(f'{otvet1}')
+        form.output_as.setText(f'{otvet1:.2f}')
     elif (y > alfar):
         otvet2 = ((input_rb * input_b * h0 * (1 - math.sqrt(1 - 2 * y)) + input_rb + input_rs) / input_rs)
-        form.output_as.setText(f'{otvet2}')
+        form.output_as.setText(f'{otvet2:.2f}')
 
 form.btn_as.clicked.connect(func)
 

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1296</width>
-    <height>745</height>
+    <height>750</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -914,7 +914,7 @@ background-color: #fff;</string>
    <widget class="QLabel" name="label_15">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>220</x>
       <y>0</y>
       <width>871</width>
       <height>91</height>
@@ -936,7 +936,7 @@ background-color: #fff;</string>
     <property name="geometry">
      <rect>
       <x>480</x>
-      <y>150</y>
+      <y>100</y>
       <width>821</width>
       <height>401</height>
      </rect>
@@ -952,7 +952,7 @@ background-color: #fff;</string>
     <property name="geometry">
      <rect>
       <x>1120</x>
-      <y>660</y>
+      <y>640</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -973,32 +973,11 @@ background-color: #fff;</string>
      <string>сохранить</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_23">
-    <property name="geometry">
-     <rect>
-      <x>730</x>
-      <y>90</y>
-      <width>281</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>24</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: #fff;</string>
-    </property>
-    <property name="text">
-     <string>КАЛЬКУЛЯТОР</string>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="input_user">
     <property name="geometry">
      <rect>
       <x>520</x>
-      <y>580</y>
+      <y>550</y>
       <width>281</width>
       <height>51</height>
      </rect>
@@ -1011,7 +990,7 @@ background-color: #fff;</string>
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>580</y>
+      <y>550</y>
       <width>71</width>
       <height>51</height>
      </rect>
@@ -1036,7 +1015,7 @@ background-color: #fff;</string>
     <property name="geometry">
      <rect>
       <x>950</x>
-      <y>580</y>
+      <y>550</y>
       <width>271</width>
       <height>51</height>
      </rect>
