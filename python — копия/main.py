@@ -1,15 +1,12 @@
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication
-from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QIcon
 import math
 import pyautogui
-import tkinter as tk
 from tkinter.filedialog import *
 
-# вывод окна
-Form, Window = uic.loadUiType("ui.ui")
 
+Form, Window = uic.loadUiType("ui.ui")
 app = QApplication([])
 window = Window()
 form = Form()
@@ -23,9 +20,9 @@ window.setWindowIcon(QIcon('calc.png'))
 # подсказки для пользователя
 form.input_bf.setPlaceholderText("например: 1500")
 form.input_hf.setPlaceholderText("например: 50")
-form.input_b.setPlaceholderText("например: 200")
-form.input_h.setPlaceholderText("например: 400")
-form.input_a.setPlaceholderText("например: 80")
+form.input_b.setPlaceholderText("от 30мм до 2/3*h")
+form.input_h.setPlaceholderText("от 30мм до 7м")
+form.input_a.setPlaceholderText("от 10мм до 1/2*h")
 form.input_m.setPlaceholderText("например: 260")
 
 # оживляем комбо боксы
